@@ -24,11 +24,20 @@ A simple API that listens to requests on http://localhost:3000/ using Typescript
 - Click the "Send" button
 - You will receive a JSON file with all the transaction data
 
+<div align="center">
+  <img width="638" src="https://user-images.githubusercontent.com/90031266/168701740-fd6984be-3a7c-4e63-95dd-1d65d918a331.png" />
+</div>
+
 ### POST 
 - Select the POST method in your request and key in ```localhost:3008/transactions``` in the URL field
 - Click the "Send" button
 - If you misses out any required fields in your ```req.body```, you will receive an error message with actionable feedback
 - If not, you will receive a JSON file with all the previous transaction data including the newly updated data
+
+<div align="center">
+  <img width="638" src="https://user-images.githubusercontent.com/90031266/168701744-24cc877f-25b0-4c30-8d3f-53531e5a1304.png" />
+</div>
+
 
 # Requirements checked
 - [x] Setup an API that will listen to requests on http://localhost:3000/ using Typescript and Express
